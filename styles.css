@@ -1,0 +1,12 @@
+.displayinfo{
+    width:200px;
+	height:200px;
+	margin:10px;
+    padding:10px;
+    background-color: aqua;
+    border-radius: 25px;
+    position: absolute; /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
