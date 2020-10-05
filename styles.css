@@ -1,0 +1,53 @@
+.displayinfo{
+    width:400px;
+    height:75px;
+    padding: 10px;
+    background-color: darkorange;
+    border-radius: 25px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.displayinfo :hover{
+    color: #ffa502;
+    box-shadow: 0 0 15px #d35400;
+    text-shadow: 0 0 15px #d35400;
+}
+.clothes-i-want{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.clothingList{
+    position: absolute;
+    background: darkorange;
+    width:400px;
+    height:200px;
+    padding: 10px;
+    border-radius: 25px;
+    position: absolute; /* or absolute */
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+    overflow-y: scroll;
+}
+#clothingOutput{
+    position:  absolute !important;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+#btnAdd:hover{
+    color: grey;
+    box-shadow: 0 0 15px white;
+    text-shadow: 0 0 15px white;
+} 
+
+canvas {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
